@@ -1,0 +1,83 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/img-background-header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    position: relative;
+}
+.blackCob{
+    background: rgb(61,2,23);
+    background: linear-gradient(180deg, rgba(61,2,23,0.9) 0%, rgba(120,33,41,0.9) 100%);
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+}
+.alingVertical{
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+.alingHorizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 60px 0;
+}
+.imgSelo{
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.seloGira{
+    animation: giraDeg 25s infinite;
+}
+@keyframes giraDeg{
+    100%{
+        rotate: -360deg;
+    }
+}
+.seloComps{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: relative;
+}
+.leftContent{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+ .CompTexto{
+    display: block;
+    width: 85%;
+    position: relative;
+    margin-top: 40px;
+}
+.CompTexto img{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.logoInferiorHeader img{
+    display: block;
+    position: relative;
+    width: 150px;
+    margin: 40px 0 0 0 ;
+}
+.rightContent{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+.rightContent img{
+    width: 100%;
+}
